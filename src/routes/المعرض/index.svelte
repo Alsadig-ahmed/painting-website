@@ -6,7 +6,7 @@
 	let img = '/home.jpg';
 </script>
 
-<Header title="فريق العمل" />
+<Header title="معرض الأعمال" />
 
 <div class="container">
 	<main class="c">
