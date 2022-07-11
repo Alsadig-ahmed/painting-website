@@ -2,10 +2,15 @@
 // import adapter from '@sveltejs/adapter-static';
 import adapter from '@sveltejs/adapter-netlify';
 import preprocess from 'svelte-preprocess';
+import { mdsvex } from 'mdsvex'
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
-	preprocess: preprocess({}),
+	extensions: ['.svelte', '.md', '.svelte.md'],
+	preprocess:[
+		mdsvex({ extensions: ['.svelte.md', '.md', '.svx'] }),
+		preprocess({}),
+	],
 	kit: {
 		adapter: adapter()
 		// adapter: adapter({
