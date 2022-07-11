@@ -25,16 +25,19 @@ __export(stdin_exports, {
 module.exports = __toCommonJS(stdin_exports);
 const manifest = {
   appDir: "_app",
-  assets: /* @__PURE__ */ new Set(["favicon.png", "home.jpg", "style.css"]),
-  mimeTypes: { ".png": "image/png", ".jpg": "image/jpeg", ".css": "text/css" },
+  assets: /* @__PURE__ */ new Set(["DSC_0614.JPG", "favicon.png", "home.jpg", "style.css"]),
+  mimeTypes: { ".JPG": "image/jpeg", ".png": "image/png", ".jpg": "image/jpeg", ".css": "text/css" },
   _: {
-    entry: { "file": "immutable/start-33d06c2f.js", "imports": ["immutable/start-33d06c2f.js", "immutable/chunks/index-887f0734.js"], "stylesheets": [] },
+    entry: { "file": "immutable/start-ddd3ada0.js", "imports": ["immutable/start-ddd3ada0.js", "immutable/chunks/index-887f0734.js"], "stylesheets": [] },
     nodes: [
       () => Promise.resolve().then(() => __toESM(require("./nodes/0.js"))),
       () => Promise.resolve().then(() => __toESM(require("./nodes/1.js"))),
       () => Promise.resolve().then(() => __toESM(require("./nodes/3.js"))),
       () => Promise.resolve().then(() => __toESM(require("./nodes/2.js"))),
       () => Promise.resolve().then(() => __toESM(require("./nodes/4.js"))),
+      () => Promise.resolve().then(() => __toESM(require("./nodes/6.js"))),
+      () => Promise.resolve().then(() => __toESM(require("./nodes/7.js"))),
+      () => Promise.resolve().then(() => __toESM(require("./nodes/8.js"))),
       () => Promise.resolve().then(() => __toESM(require("./nodes/5.js")))
     ],
     routes: [
@@ -62,13 +65,35 @@ const manifest = {
       },
       {
         type: "page",
+        id: "try",
+        pattern: /^\/try\/?$/,
+        names: [],
+        types: [],
+        path: "/try",
+        shadow: null,
+        a: [0, 4],
+        b: [1]
+      },
+      {
+        type: "page",
+        id: "\u0627\u0644\u0645\u062F\u0648\u0646\u0629",
+        pattern: /^\/المدونة\/?$/,
+        names: [],
+        types: [],
+        path: "/\u0627\u0644\u0645\u062F\u0648\u0646\u0629",
+        shadow: null,
+        a: [0, 5],
+        b: [1]
+      },
+      {
+        type: "page",
         id: "\u0627\u0644\u0645\u0639\u0631\u0636",
         pattern: /^\/المعرض\/?$/,
         names: [],
         types: [],
         path: "/\u0627\u0644\u0645\u0639\u0631\u0636",
         shadow: null,
-        a: [0, 4],
+        a: [0, 6],
         b: [1]
       },
       {
@@ -79,7 +104,18 @@ const manifest = {
         types: [],
         path: "/\u0641\u0631\u064A\u0642-\u0627\u0644\u0639\u0645\u0644",
         shadow: null,
-        a: [0, 5],
+        a: [0, 7],
+        b: [1]
+      },
+      {
+        type: "page",
+        id: "\u0627\u0644\u0645\u062F\u0648\u0646\u0629/good",
+        pattern: /^\/المدونة\/good\/?$/,
+        names: [],
+        types: [],
+        path: "/\u0627\u0644\u0645\u062F\u0648\u0646\u0629/good",
+        shadow: null,
+        a: [0, 8],
         b: [1]
       }
     ],

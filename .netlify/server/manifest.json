@@ -51,6 +51,30 @@
       "immutable/assets/entries/pages/index.svelte-4c17573c.css"
     ]
   },
+  "src/routes/try.md": {
+    "file": "entries/pages/try.md.js",
+    "src": "src/routes/try.md",
+    "isEntry": true,
+    "imports": [
+      "_index-5c544924.js"
+    ]
+  },
+  "src/routes/المدونة/good.md": {
+    "file": "entries/pages/المدونة/good.md.js",
+    "src": "src/routes/المدونة/good.md",
+    "isEntry": true,
+    "imports": [
+      "_index-5c544924.js"
+    ]
+  },
+  "src/routes/المدونة/index.md": {
+    "file": "entries/pages/المدونة/index.md.js",
+    "src": "src/routes/المدونة/index.md",
+    "isEntry": true,
+    "imports": [
+      "_index-5c544924.js"
+    ]
+  },
   "src/routes/المعرض/index.svelte": {
     "file": "entries/pages/المعرض/index.svelte.js",
     "src": "src/routes/المعرض/index.svelte",

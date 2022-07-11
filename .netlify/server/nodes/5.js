@@ -27,8 +27,8 @@ __export(stdin_exports, {
   stylesheets: () => stylesheets
 });
 module.exports = __toCommonJS(stdin_exports);
-var module2 = __toESM(require("../entries/pages/\u0641\u0631\u064A\u0642-\u0627\u0644\u0639\u0645\u0644/index.svelte.js"));
+var module2 = __toESM(require("../entries/pages/\u0627\u0644\u0645\u062F\u0648\u0646\u0629/good.md.js"));
 const index = 5;
-const file = "immutable/pages/\u0641\u0631\u064A\u0642-\u0627\u0644\u0639\u0645\u0644/index.svelte-35862018.js";
-const imports = ["immutable/pages/\u0641\u0631\u064A\u0642-\u0627\u0644\u0639\u0645\u0644/index.svelte-35862018.js", "immutable/chunks/index-887f0734.js", "immutable/chunks/Header-94f29447.js", "immutable/chunks/Card-6fd92ba9.js"];
-const stylesheets = ["immutable/assets/pages/about/index.svelte-47bb4b2c.css", "immutable/assets/Card.svelte_svelte_type_style_lang-9429d967.css", "immutable/assets/Header-76ebb15f.css"];
+const file = "immutable/pages/\u0627\u0644\u0645\u062F\u0648\u0646\u0629/good.md-d3dac25e.js";
+const imports = ["immutable/pages/\u0627\u0644\u0645\u062F\u0648\u0646\u0629/good.md-d3dac25e.js", "immutable/chunks/index-887f0734.js"];
+const stylesheets = [];
