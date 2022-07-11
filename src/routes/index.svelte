@@ -33,7 +33,7 @@
 
 <h4 class="cta"><a href="tel:+249963003102"> 0963003102 | إتصل الأن </a></h4>
 <Header />
-slk
+
 <div class="container">
 	<main class="c">
 		{#each Servces as s}
