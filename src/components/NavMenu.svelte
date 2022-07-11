@@ -19,6 +19,7 @@
 	<div id="myLinks">
 		<a href="mailto:alsadq.ahmed@gmail.com">أرسال رسالة</a>
 		<a href="about">من نحن </a>
+		<a href="المدونة">المدونة</a>
 	</div>
 	<a href="#" class="icon" on:click={myFunction}>
 		<!-- <svg viewBox='0 0 10 8' width='40'>
