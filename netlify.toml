@@ -1,17 +1,19 @@
 [build]
-  command = "npm run build"
-  publish = "build"
+command = "npm run build"
+publish = "build"
 
-  [[redirects]]
-  from = '/blog/*'
-  to = '/المدونة/:splat'
+[[redirects]]
+  from = "/blog"
+  to = "/المدونة"
   status = 200
 
-# [[redirects]]
-#   from = '/blog'
-#   to = '/المدونة'
-#   status = 200
+[[redirects]]
+from = "/blog/*"
+to = "/المدونة/:splat"
+status = 200
+
 # -redirects 
 # Redirects from what the browser requests to what we serve
 # /home              /
 # /blog/*            /المدونة/:splat'       200
+# /blog/*            /المدونة/:splat       200
