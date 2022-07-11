@@ -24,7 +24,7 @@
 
 	.service {
 		background-color: #d2e1e6;
-		box-shadow: 0 .5rem .5rem 0 rgba(143, 158, 165, 0.664);
+		box-shadow: 0 0.5rem 0.5rem 0 rgba(143, 158, 165, 0.664);
 
 		margin: 0.4rem;
 		padding: 0.4rem;

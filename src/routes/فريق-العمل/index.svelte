@@ -2,11 +2,11 @@
 	import Servce from '../../components/Servce.svelte';
 	import Header from '../../components/Header.svelte';
 	import Card from '../../components/Card.svelte';
-    let img= "/home.jpg";
-let supervisors=[
-	{name : "الصادق أحمد",number: "tel:+249963003102"},
-	{name : "احمد",number: "tel:+24991000000"},
-]
+	let img = '/home.jpg';
+	let supervisors = [
+		{ name: 'الصادق أحمد', number: 'tel:+249963003102' },
+		{ name: 'احمد', number: 'tel:+24991000000' }
+	];
 </script>
 
 <Header title="فريق العمل" />
@@ -14,7 +14,7 @@ let supervisors=[
 <div class="container">
 	<main class="c">
 		{#each supervisors as supervisor}
-			 <Card {img} text={supervisor.name} url={supervisor.number} />
+			<Card {img} text={supervisor.name} url={supervisor.number} />
 		{/each}
 		<!-- <Card {img} url="tel:+249127871021" text="عبدالعزيز عصام - أدارة" />
 		<Card {img} url="tel:+249127871021" text="السيد - منسق ترحال" />

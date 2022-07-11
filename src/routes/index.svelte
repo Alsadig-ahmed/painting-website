@@ -64,10 +64,10 @@
 		width: 100%;
 		padding: 0.2rem;
 		div {
-			background-color:rgba(154, 177, 184, 0.589);
+			background-color: rgba(154, 177, 184, 0.589);
 			border-radius: 1rem;
-			box-shadow: 0 0 1.3rem .1rem rgba(165, 143, 143, 0.664);
-			margin-bottom: .7rem;
+			box-shadow: 0 0 1.3rem 0.1rem rgba(165, 143, 143, 0.664);
+			margin-bottom: 0.7rem;
 		}
 	}
 	.container {

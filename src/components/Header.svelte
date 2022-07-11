@@ -1,12 +1,13 @@
 <script>
-	import NavMenu from './NavMenu.svelte'
+	import NavMenu from './NavMenu.svelte';
 	export let title = 'الصادق لأعمال النقاشة';
 </script>
 
-<NavMenu  {title} />
+<NavMenu {title} />
 <!-- <div class="hero">{title}</div> -->
 
-<div class="fix"></div>
+<div class="fix" />
+
 <style>
 	/* .hero {
 		width: 100%;
