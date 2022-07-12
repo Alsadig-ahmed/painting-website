@@ -15,6 +15,6 @@
 <style>
 	main {
 		display: grid;
-		grid-template-columns: auto auto auto auto;
+		grid-template-columns:repeat(auto-fit,300px);
 	}
 </style>
